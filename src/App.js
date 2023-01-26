@@ -13,15 +13,15 @@ function App() {
         <section className='min-h-screen'>
           <header className='bg-neutral-900 sticky top-0'>
             <div className='p-5 flex justify-between items-center'>
-              <div className='flex '><img className='cursor-pointer text-neutral-200 w-12 h-12' src={imgIcon} alt=''/></div>
+              <div className='flex '><img className='cursor-pointer text-neutral-200 w-10 h-10' src={imgIcon} alt=''/></div>
               <div className=''>
-                <nav className='bg-transparent text-neutral-200 text-2xl font-red-rose'>
+                <nav className='bg-transparent text-neutral-200 text-xl font-red-rose'>
                   <ul className='flex flex-row'>
-                    <li className='px-5'>Home</li>
-                    <li className='px-5'>Gear Simulator</li>
+                    <li className='px-5'>Guides</li> {/*Raid guides, Character guides, General guides*/}
                     <li className='px-5'>Community</li>
-                    <li className='px-5'>Tips & Guides</li>
-                    <li className='px-5'>Information</li>
+                    <li className='px-5'>Useful Tools</li>
+                    <li className='px-5'>Gear Simulator</li>
+                    <li className='px-5'>FAQ</li>
                   </ul>
                 </nav>
               </div>
@@ -29,7 +29,7 @@ function App() {
             </div>
           </header>
           <section className='flex items-center justify-center'>
-            <div className='bg-neutral-900/[.65] flex flex-col justify-center max-w-screen-xl px-10'>
+            <div className='bg-neutral-900/[.75] flex flex-col justify-center max-w-screen-xl px-10'>
               <img className='' src={imgBanner} alt="" />
               <div className='flex flex-col items-center'>
                 {/* <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-4/5 text-center text-neutral-200 text-5xl my-10 rounded-sm'>
