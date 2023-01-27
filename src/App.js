@@ -20,7 +20,7 @@ function App() {
           <section className='min-h-screen'>
             <header className='bg-neutral-900 sticky top-0'>
               <div className='p-5 flex justify-between items-center'>
-                <div className='flex '><img className='cursor-pointer w-10 h-10' src={imgIcon} alt=''/></div>
+                <div className='flex '><img className='cursor-pointer w-8 h-8' src={imgIcon} alt=''/></div> {/* Create Vindiversity Icon in Canva */}
                 <div className=''>
                   <nav className='bg-transparent text-neutral-200 text-xl font-red-rose'>
                     <ul className='flex flex-row'>
@@ -33,14 +33,14 @@ function App() {
                     </ul>
                   </nav>
                 </div>
-                <div><CgProfile className='cursor-pointer text-blue-200 text-4xl'/></div>
+                <div><CgProfile className='cursor-pointer text-blue-200 text-4xl'/></div> {/* Find better icon for profile */}
               </div>
             </header>
             <section className='flex items-center justify-center'>
               <div className='bg-neutral-900/[.75] flex flex-col h-screen justify-start max-w-screen-xl px-3 border-neutral-900 border-2'>
                 <img className='border-neutral-900 border-2 mb-5' src={imgBanner} alt="" />
                 <div className='flex flex-col items-center'>
-                  <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-4/5 text-center text-neutral-200 text-5xl  rounded-sm'>
+                  <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-4/5 text-center text-neutral-200 text-5xl border-neutral-900 border-2 rounded-sm'>
                     Vindictus University</h1>
                   <p className='bg-gradient-to-b from-black to-neutral-900 font-red-rose p-10 w-full text-center text-neutral-200 text-3xl  rounded-sm my-5 border-neutral-900 border-2'>
                     Welcome mercenaries, to our own little pocket of Erinn. In this place outside of time you can learn 
