@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return(
         <header className='bg-neutral-900 sticky top-0'>
-            <div className='p-5 flex justify-between items-center'>
-                <div className='flex '><img className='cursor-pointer w-8 h-8' src={imgIcon} alt=''/></div> {/* Create Vindiversity Icon in Canva */}
+            <div className=' flex justify-between items-center px-5'>
+                <Link to='/'><div className='flex '><img className='cursor-pointer w-10 h-10' src={imgIcon} alt=''/></div></Link> {/* Create Vindiversity Icon in Canva */}
                 <div className=''>
                     <nav className='bg-transparent text-neutral-200 text-xl font-red-rose'>
-                        <ul className='flex flex-row'>
-                        <li className='px-5'><Link to='/guides'>Guides</Link></li> {/*Raid guides, Character guides, General guides*/}
-                        <li className='px-5'><Link to='/lore'>Lore</Link></li>
-                        <li className='px-5'><Link to='/community'>Community</Link></li>
-                        <li className='px-5'><Link to='/usefulTools'>Useful Tools</Link></li>
-                        <li className='px-5'><Link to='/gearSimulator'>Gear Simulator</Link></li>
-                        <li className='px-5'><Link to='/faq'>FAQ</Link></li>
+                        <ul className='flex flex-row '>
+                        <Link to='/guides'><li className='p-5'>Guides</li></Link> {/*Raid guides, Character guides, General guides*/}
+                        <Link to='/lore'><li className='p-5'>Lore</li></Link>
+                        <Link to='/community'><li className='p-5'>Community</li></Link>
+                        <Link to='/usefulTools'><li className='p-5'>Useful Tools</li></Link>
+                        <Link to='/gearSimulator'><li className='p-5'>Gear Simulator</li></Link>
+                        <Link to='/faq'><li className='p-5'>FAQ</li></Link>
                         </ul>
                     </nav>
                 </div>
