@@ -2,7 +2,7 @@ import imgBanner from './images/Only_Heroes.jpg';
 
 const Community = () => {
     return(
-        <main className='bg-[url("./images/Colhen_Depart.png")] bg-fixed'>
+        <main className='bg-[url("./images/Colhen.png")] bg-fixed'>
             <section className='min-h-screen'>
                 <section className='flex items-center justify-center'>
                     <div className='bg-neutral-900/[.75] flex flex-col h-full justify-between max-w-screen-xl px-3 border-neutral-900 border-x-2'>
