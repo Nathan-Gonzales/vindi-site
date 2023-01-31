@@ -11,16 +11,18 @@ const Community = () => {
                             <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-4/5 text-center text-neutral-200 text-5xl border-neutral-900 border-2 rounded-sm'>
                                 Community</h1>
                             <p className='bg-gradient-to-b from-black to-neutral-900 font-red-rose p-10 w-full text-center text-neutral-200 text-3xl  rounded-sm my-10 border-neutral-900 border-2'>
-                                Welcome mercenaries, to our own little pocket of Erinn. In this place outside of time you can learn 
-                                how to change your fate with the knowledge of others who have walked this path before you... 
+                                Since Vindi has a small player base here in NA, we need to stick together. 
+                                This will serve as a place for the existing players to meet each other and also
+                                for new players to find us.
                             </p>
-                            <h1 className='text-neutral-200 text-4xl text-center w-full font-red-rose'>Current Events</h1>
+                            <h1 className='text-neutral-200 text-4xl text-center w-full font-red-rose'>Most Active Guilds in Game</h1>
                         </div>
-                        <section className='flex flex-col gap-x-10 gap-y-10 py-10 px-36 lg:flex-row lg:flex-wrap'>
-                            <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                            <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                            <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                            <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
+                        <section className=''>
+                            <ul>
+                                <li>Angelz</li>
+                                <li></li>
+                                <li></li>
+                            </ul>
                         </section>
                     </div>
                 </section>
