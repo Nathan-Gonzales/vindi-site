@@ -17,7 +17,7 @@ const Community = () => {
                             </p>
                             <h1 className='text-neutral-200 text-4xl text-center w-full font-red-rose'>Most Active Guilds in Game</h1>
                         </div>
-                        <section className=''>
+                        <section className='text-neutral-200 text-4xl text-center w-full font-red-rose'>
                             <ul>
                                 <li>Angelz</li>
                                 <li></li>
