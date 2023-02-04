@@ -26,7 +26,7 @@ const Home = () => {
                         </section>
                         <section className='flex flex-col items-end justify-start mt-5'>
                             <div className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-5 w-1/3 text-center text-neutral-200 text-3xl border-neutral-900 border-2 rounded-sm'>
-                                <a href="https://forums.vindictus.nexon.net/categories/story">Link to the official Event Page</a>
+                                <a href="https://vindictus.nexon.net/news/">Link to the official Event Page</a>
                             </div>
                         </section>
                     </div>
