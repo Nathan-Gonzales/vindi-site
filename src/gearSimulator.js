@@ -16,9 +16,7 @@ const GearSimulator = () => {
                                 for equipping new gear. For example maybe you need a little more defense and you're wondering how much 
                                 defense you could get from upgrading from Milletian armor to Ardri.
                             </p>
-                            <h1 className='text-neutral-200 text-4xl text-center w-full font-red-rose'>Current Events</h1>
                         </div>
-
                     </div>
                 </section>
             </section>
