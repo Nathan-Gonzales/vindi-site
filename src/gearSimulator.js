@@ -17,6 +17,9 @@ const GearSimulator = () => {
                                 defense you could get from upgrading from Milletian armor to Ardri.
                             </p>
                         </div>
+                        <section>
+                            <h1>This Goes Here</h1>
+                        </section>
                     </div>
                 </section>
             </section>
