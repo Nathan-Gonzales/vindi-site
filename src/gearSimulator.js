@@ -18,7 +18,9 @@ const GearSimulator = () => {
                             </p>
                         </div>
                         <section>
-                            <h1>This Goes Here</h1>
+                            <div>
+                                {/* This will be where you choose a character */}
+                            </div>
                         </section>
                     </div>
                 </section>
