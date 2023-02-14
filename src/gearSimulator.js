@@ -21,7 +21,7 @@ const GearSimulator = () => {
                             <div>
                                 {/* This will be where you choose a character */}
                                 <h1>
-                                    
+                                    {/* More design */}
                                 </h1>
                             </div>
                         </section>
