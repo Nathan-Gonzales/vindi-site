@@ -19,6 +19,7 @@ const GearSimulator = () => {
                         </div>
                         <section>
                             <h1>This is a title</h1>
+                            <div></div>
                         </section>
                     </div>
                 </section>
