@@ -1,7 +1,11 @@
 import imgBanner from './images/FerghusHimself.png';
+import React, { useState } from 'react';
+import startSimulator from './startSimulator';
 
 
 const GearSimulator = () => {
+    // const [] = useState()
+
     return (
         <main className='bg-[url("./images/TheForge.jpg")] bg-fixed'>
             <section className='min-h-screen'>
@@ -17,9 +21,10 @@ const GearSimulator = () => {
                                 defense you could get from upgrading from Milletian armor to Ardri.
                             </p>
                         </div>
-                        <section>
-                            <h1>This is a title</h1>
-                            
+                        <section className='flex items-center justify-center'>
+                            <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-1/2 text-center text-neutral-200 text-5xl border-neutral-900 border-2 rounded-sm'>
+                                <button onClick={startSimulator}>START</button>
+                            </h1>
                         </section>
                     </div>
                 </section>
