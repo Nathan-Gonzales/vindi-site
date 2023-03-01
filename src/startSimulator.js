@@ -1,9 +1,12 @@
-
+import React, { useState } from 'react';
 
 
 const startSimulator = () => {
-    return(<>
-    </>);
+    // const [] = useState();
+
+    return(
+        <></>
+    );
 }
 
 
