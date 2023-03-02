@@ -5,7 +5,7 @@ const startSimulator = () => {
     // const [] = useState();
 
     return(
-        <></>
+        <main></main>
     );
 }
 
