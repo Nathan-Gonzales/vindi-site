@@ -14,8 +14,8 @@ const FAQ = () => {
                             <p className='bg-gradient-to-b from-black to-neutral-900 font-red-rose p-10 w-full text-center text-neutral-200 text-3xl  rounded-sm my-10 border-neutral-900 border-2'>
                                 Welcome mercenaries, to our own little pocket of Erinn. In this place outside of time you can learn 
                                 how to change your fate with the knowledge of others who have walked this path before you... 
-                            </p>                            
-                        </div>                        
+                            </p>
+                        </div>
                     </div>
                 </section>
             </section>
