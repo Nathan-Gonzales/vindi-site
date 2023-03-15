@@ -45,11 +45,38 @@ const StartSimulator = () => {
                 </div>
                 <div className="col-span-3 text-center w-full">
                     <h1 className="font-red-rose text-white text-4xl pb-10 px-10">Gear</h1>
-                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2">
-                        <div id='gearsets'>
-                            <div id="astera"></div>
-                            <div id='milletian'></div>
-                            <div id='ardri'></div>
+                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left pl-10">
+                        <div id='gearsets '>
+                            <div id="astera" className="pl-10">Astera</div>
+                            <hr className="w-3/4 border-2 border-neutral-800 rounded-md "/>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div id='milletian' className="pl-10">Milletian</div>
+                            <hr className="w-3/4 border-2 border-neutral-800 rounded-md "/>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div id='ardri' className="pl-10">Ardri</div>
+                            <hr className="w-3/4 border-2 border-neutral-800 rounded-md "/>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                         <div id="accessories">
                             <div id=""></div>
