@@ -50,7 +50,7 @@ const StartSimulator = () => {
                             <div id="astera" className="pl-10">Astera</div>
                             <hr className="w-3/4 border-2 border-neutral-800 rounded-md "/>
                             <div>
-                                <div></div>
+                                <div>Head</div>
                                 <div></div>
                                 <div></div>
                                 <div></div>
