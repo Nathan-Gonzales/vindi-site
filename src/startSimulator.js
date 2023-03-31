@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import chest from './images/Armors/Male/AsteraChestMale.PNG';
+import { GiGauntlet } from 'react-icons/gi';
 
 
 const StartSimulator = () => {
@@ -9,7 +10,7 @@ const StartSimulator = () => {
         const equipArray = []
 
         for (let index = 0; index < idList.length; index++) {
-            equipArray.push(<div id={idList[index]} className='bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900'></div>)
+            equipArray.push(<div id={idList[index]} className='flex bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900 items-center justify-center'><GiGauntlet className="w-full h-full" /></div>)
         }
 
         return equipArray
@@ -45,13 +46,13 @@ const StartSimulator = () => {
                 </div>
                 <div className="col-span-3 text-center ">
                     <h1 className="font-red-rose text-white text-4xl pb-10 px-10">Gear</h1>
-                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-2">
+                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-2 h-[444px] overflow-y-scroll scrollbar">
                         <div id='gearsets ' className="text-center">
                             <div id="astera" className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Astera</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
-                            <div className="inline-block font-red-rose py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
+                            <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
-                                    <img src={chest} alt="" className="w-[60px]"/>
+                                    <img src={chest} alt="" className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"/>
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
@@ -62,7 +63,7 @@ const StartSimulator = () => {
                             
                             <div id='milletian' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Milletian</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
-                            <div className="inline-block font-red-rose py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
+                            <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
@@ -74,7 +75,7 @@ const StartSimulator = () => {
                             </div>
                             <div id='ardri' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Ardri</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
-                            <div className="inline-block font-red-rose py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
+                            <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
                                     <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
@@ -86,8 +87,8 @@ const StartSimulator = () => {
                             </div>
                         </div>
                         <div id="accessories">
-                            <div id=""></div>
-                            <div id=""></div>
+                            <div id="" className="text-2xl"></div>
+                            <div id="" className="text-2xl"></div>
                             <div id=""></div>
                             <div id=""></div>
                             <div id=""></div>

@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: rgb(82, 82, 82, 1);
+    border: 1px solid #000000;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(40, 37, 36, 1);
+    border-radius: 100vh;
+    border: 2px solid rgb(193, 193, 193, 1);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(82, 82, 82, 1);
+  }
+
+  .scrollbar::-webkit-scrollbar-corner {
+    background: rgb(19, 21, 20, 1);
+  }
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,3 +43,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
