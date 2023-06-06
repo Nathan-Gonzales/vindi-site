@@ -1,6 +1,6 @@
 import imgBanner from './images/FerghusHimself.png';
 import React, { useState } from 'react';
-import StartSimulator from './StartSimulator';
+import StartSimulator from './startSimulator.js';
 
 
 const GearSimulator = () => {
