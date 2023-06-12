@@ -6,6 +6,23 @@ import asteraLegs from './images/Armors/Male/AsteraLegsMale.PNG';
 import asteraHead from './images/Armors/Male/AsteraHeadMale.PNG';
 import asteraWeapon from './images/Weapons/Greatsword-100.PNG';
 import milletianChest from './images/Armors/Male/MilletianChestMale.PNG';
+import milletianFeet from './images/Armors/Male/MilletianFeetMale.PNG';
+import milletianHands from './images/Armors/Male/MilletianHandsMale.PNG';
+import MilletianLegs from './images/Armors/Male/DullahanLegsMale.PNG';
+import MilletianHead from './images/Armors/Male/MilletianHeadMale.PNG';
+import milletianWeapon from './images/Weapons/Greatsword-105.PNG';
+import ardriWeapon from './images/Weapons/Greatsword-110.PNG';
+import ardriChest from './images/Armors/Male/ArdriChestMale.PNG';
+import ardriFeet from './images/Armors/Male/ArdriFeetMale.PNG';
+import ardriHands from './images/Armors/Male/ArdriHandsMale.PNG';
+import ardriHead from './images/Armors/Male/ArdriHeadMale.PNG';
+import ardriLegs from './images/Armors/Male/ArdriLegsMale.PNG';
+import ornaChest from './images/Armors/Male/OrnaChestMale.PNG';
+import ornaFeet from './images/Armors/Male/OrnaFeetMale.PNG';
+import ornaHands from './images/Armors/Male/OrnaHandsMale.PNG';
+import ornaHead from './images/Armors/Male/OrnaHeadMale.PNG';
+import ornaLegs from './images/Armors/Male/OrnaLegsMale.PNG';
+import ornaWeapon from './images/Weapons/Greatsword-115.PNG';
 import { GiChestArmor, 
     GiGauntlet, 
     GiElfHelmet, 
@@ -28,7 +45,6 @@ import { GiChestArmor,
 const StartSimulator = () => {
 
     const [equipped, setEquipped] = useState({
-        1: false,
     });
 
     const [slots, setSlots] = useState({
@@ -156,218 +172,275 @@ const StartSimulator = () => {
         1: {
             name: "AsteraChest",
             type: 'chest',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2472,
+            CritRes: 25,
             img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
         },
         2: {
             name: "AsteraWeapon",
             type: 'weapon',
-            STR: 10,
-            AGI: 20,
+            STR: 110,
+            AGI: 60,
             INT: 30,
-            WIL: 40,
-            ATT: 50,
+            WIL: 80,
+            ATT: 18800,
             DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            ATTSPD: 9,
+            BAL: 58,
+            Crit: 82,
+            img: <img src={asteraWeapon} alt="" className="w-full h-full"></img>,
         },
         3: {
             name: "AsteraHead",
             type: 'head',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2426,
+            CritRes: 21,
+            img: <img src={asteraHead} alt="" className="w-full h-full"></img>,
         },
         4: {
             name: "AsteraLegs",
             type: 'legs',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2345,
+            CritRes: 30,
+            img: <img src={asteraLegs} alt="" className="w-full h-full"></img>,
         },
         5: {
             name: "AsteraHands",
             type: 'hands',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2426,
+            CritRes: 21,
+            img: <img src={asteraHands} alt="" className="w-full h-full"></img>,
         },
         6: {
             name: "AsteraFeet",
             type: 'feet',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2426,
+            CritRes: 21,
+            img: <img src={asteraFeet} alt="" className="w-full h-full"></img>,
         },
         7: {
             name: "MilletianChest",
             type: 'chest',
-            STR: 100,
-            AGI: 200,
-            INT: 300,
-            WIL: 400,
-            ATT: 500,
-            DEF: 600,
-            ATTSurplus: 700,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2932,
+            CritRes: 29,
             img: <img src={milletianChest} alt="" className="w-full h-full"></img>,
         },
         8: {
             name: "MilletianWeapon",
             type: 'weapon',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 110,
+            AGI: 60,
+            INT: 148,
+            WIL: 80,
+            ATT: 22800,
+            BAL: 51,
+            Crit: 97,
+            ATTSPD: 9,
+            img: <img src={milletianWeapon} alt="" className="w-full h-full"></img>,
         },
         9: {
             name: "MilletianHead",
             type: 'head',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2996,
+            CritRes: 24,
+            img: <img src={MilletianHead} alt="" className="w-full h-full"></img>,
         },
         10: {
             name: "MilletianLegs",
             type: 'legs',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2775,
+            CritRes: 34,
+            img: <img src={MilletianLegs} alt="" className="w-full h-full"></img>,
         },
         11: {
             name: "MilletianHands",
             type: 'hands',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2996,
+            CritRes: 24,
+            img: <img src={milletianHands} alt="" className="w-full h-full"></img>,
         },
         12: {
             name: "MilletianFeet",
             type: 'feet',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 2996,
+            CritRes: 24,
+            img: <img src={milletianFeet} alt="" className="w-full h-full"></img>,
         },
         13: {
             name: "ArdriChest",
             type: 'chest',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3528,
+            CritRes: 34,
+            img: <img src={ardriChest} alt="" className="w-full h-full"></img>,
         },
         14: {
             name: "ArdriWeapon",
             type: 'weapon',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 110,
+            AGI: 60,
+            INT: 148,
+            WIL: 80,
+            ATT: 26800,
+            ATTSPD: 9,
+            BAL: 51,
+            Crit: 112,
+            img: <img src={ardriWeapon} alt="" className="w-full h-full"></img>,
         },
         15: {
             name: "ArdriHead",
             type: 'head',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3475,
+            CritRes: 27,
+            img: <img src={ardriHead} alt="" className="w-full h-full"></img>,
         },
         16: {
             name: "ArdriLegs",
             type: 'legs',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3342,
+            CritRes: 40,
+            img: <img src={ardriLegs} alt="" className="w-full h-full"></img>,
         },
         17: {
             name: "ArdriHands",
             type: 'hands',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3475,
+            CritRes: 27,
+            img: <img src={ardriHands} alt="" className="w-full h-full"></img>,
         },
         18: {
             name: "ArdriFeet",
             type: 'feet',
-            STR: 10,
-            AGI: 20,
-            INT: 30,
-            WIL: 40,
-            ATT: 50,
-            DEF: 60,
-            ATTSurplus: 70,
-            img: <img src={asteraChest} alt="" className="w-full h-full"></img>,
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3475,
+            CritRes: 27,
+            img: <img src={ardriFeet} alt="" className="w-full h-full"></img>,
+        },
+        19: {
+            name: "OrnaChest",
+            type: 'chest',
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 4124,
+            CritRes: 39,
+            img: <img src={ornaChest} alt="" className="w-full h-full"></img>,
+        },
+        20: {
+            name: "OrnaWeapon",
+            type: 'weapon',
+            STR: 110,
+            AGI: 60,
+            INT: 148,
+            WIL: 80,
+            ATT: 30800,
+            ATTSPD: 9,
+            BAL: 59,
+            Crit: 120,
+            img: <img src={ornaWeapon} alt="" className="w-full h-full"></img>,
+        },
+        21: {
+            name: "OrnaHead",
+            type: 'head',
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3954,
+            CritRes: 29,
+            img: <img src={ornaHead} alt="" className="w-full h-full"></img>,
+        },
+        22: {
+            name: "OrnaLegs",
+            type: 'legs',
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3909,
+            CritRes: 46,
+            img: <img src={ornaLegs} alt="" className="w-full h-full"></img>,
+        },
+        23: {
+            name: "OrnaHands",
+            type: 'hands',
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3954,
+            CritRes: 29,
+            img: <img src={ornaHands} alt="" className="w-full h-full"></img>,
+        },
+        24: {
+            name: "OrnaFeet",
+            type: 'feet',
+            STR: 180,
+            AGI: 90,
+            INT: 243,
+            WIL: 80,
+            DEF: 3954,
+            CritRes: 29,
+            img: <img src={ornaFeet} alt="" className="w-full h-full"></img>,
         },
     }
     
@@ -409,14 +482,109 @@ const StartSimulator = () => {
                     })
                     break;
                 case 'weapon':
+                    setEquipped(prev => {
+                        const update = {
+                            ...prev,
+                            [slots.weapon.id]: false
+                        }
+                        return update
+                    })
+                    updateStat(slots.weapon.id, false)
+
+                    setSlots(prev => {
+                        const tempSlots = JSON.parse(JSON.stringify(slots))
+                        tempSlots.weapon.id = null
+                        tempSlots.weapon.empty = true
+                        const update = {
+                            ...prev,
+                            weapon: tempSlots.weapon
+                        }
+                        return update
+                    })
                     break;
                 case 'head':
+                    setEquipped(prev => {
+                        const update = {
+                            ...prev,
+                            [slots.head.id]: false
+                        }
+                        return update
+                    })
+                    updateStat(slots.head.id, false)
+
+                    setSlots(prev => {
+                        const tempSlots = JSON.parse(JSON.stringify(slots))
+                        tempSlots.head.id = null
+                        tempSlots.head.empty = true
+                        const update = {
+                            ...prev,
+                            head: tempSlots.head
+                        }
+                        return update
+                    })
                     break;
                 case 'legs':
+                    setEquipped(prev => {
+                        const update = {
+                            ...prev,
+                            [slots.legs.id]: false
+                        }
+                        return update
+                    })
+                    updateStat(slots.legs.id, false)
+
+                    setSlots(prev => {
+                        const tempSlots = JSON.parse(JSON.stringify(slots))
+                        tempSlots.legs.id = null
+                        tempSlots.legs.empty = true
+                        const update = {
+                            ...prev,
+                            legs: tempSlots.legs
+                        }
+                        return update
+                    })
                     break;
                 case 'hands':
+                    setEquipped(prev => {
+                        const update = {
+                            ...prev,
+                            [slots.hands.id]: false
+                        }
+                        return update
+                    })
+                    updateStat(slots.hands.id, false)
+
+                    setSlots(prev => {
+                        const tempSlots = JSON.parse(JSON.stringify(slots))
+                        tempSlots.hands.id = null
+                        tempSlots.hands.empty = true
+                        const update = {
+                            ...prev,
+                            hands: tempSlots.hands
+                        }
+                        return update
+                    })
                     break;
                 case 'feet':
+                    setEquipped(prev => {
+                        const update = {
+                            ...prev,
+                            [slots.feet.id]: false
+                        }
+                        return update
+                    })
+                    updateStat(slots.feet.id, false)
+
+                    setSlots(prev => {
+                        const tempSlots = JSON.parse(JSON.stringify(slots))
+                        tempSlots.feet.id = null
+                        tempSlots.feet.empty = true
+                        const update = {
+                            ...prev,
+                            feet: tempSlots.feet
+                        }
+                        return update
+                    })
                     break;
                 default:
                     console.log("error: type not found")
@@ -448,67 +616,34 @@ const StartSimulator = () => {
     function updateStat(ID, equipping){
         
         if(equipping){
-            // switch setStats depending on which piece
-            switch(pieces[ID].type){
-                case 'chest':
-                    setStatsUpdate(prev => {
-                        const tempStats = JSON.parse(JSON.stringify(statsUpdate))
-                        for(const stat in prev.stats){
-                            if(pieces[ID].hasOwnProperty(stat)){
-                                tempStats.stats[stat] = prev.stats[stat] + pieces[ID][stat]
-                            }
-                        }
-                        const update = {
-                            ...prev,
-                            stats: tempStats.stats
-                        }
-                        return update
-                    })
-                    break;
-                case 'weapon':
-                    return !slots.weapon.empty;
-                case 'head':
-                    return !slots.head.empty;
-                case 'legs':
-                    return !slots.legs.empty;
-                case 'hands':
-                    return !slots.hands.empty;
-                case 'feet':
-                    return !slots.feet.empty;
-                default:
-                    console.log("error: type not found")
-            }
+            setStatsUpdate(prev => {
+                const tempStats = JSON.parse(JSON.stringify(statsUpdate))
+                for(const stat in prev.stats){
+                    if(pieces[ID].hasOwnProperty(stat)){
+                        tempStats.stats[stat] = prev.stats[stat] + pieces[ID][stat]
+                    }
+                }
+                const update = {
+                    ...prev,
+                    stats: tempStats.stats
+                }
+                return update
+            })
         }
         else{
-            switch(pieces[ID].type){
-                case 'chest':
-                    setStatsUpdate(prev => {
-                        const tempStats = JSON.parse(JSON.stringify(statsUpdate))
-                        for(const stat in prev.stats){
-                            if(pieces[ID].hasOwnProperty(stat)){
-                                tempStats.stats[stat] = prev.stats[stat] - pieces[ID][stat]
-                            }
-                        }
-                        const update = {
-                            ...prev,
-                            stats: tempStats.stats
-                        }
-                        return update
-                    })
-                    break;
-                case 'weapon':
-                    return !slots.weapon.empty;
-                case 'head':
-                    return !slots.head.empty;
-                case 'legs':
-                    return !slots.legs.empty;
-                case 'hands':
-                    return !slots.hands.empty;
-                case 'feet':
-                    return !slots.feet.empty;
-                default:
-                    console.log("error: type not found")
-            }
+            setStatsUpdate(prev => {
+                const tempStats = JSON.parse(JSON.stringify(statsUpdate))
+                for(const stat in prev.stats){
+                    if(pieces[ID].hasOwnProperty(stat)){
+                        tempStats.stats[stat] = prev.stats[stat] - pieces[ID][stat]
+                    }
+                }
+                const update = {
+                    ...prev,
+                    stats: tempStats.stats
+                }
+                return update
+            })
         }
     }
 
@@ -607,13 +742,12 @@ const StartSimulator = () => {
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
-                                    <img src={asteraChest} alt="" onClick={() =>{handleClick(1)}} className={ equipped[1] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={asteraWeapon} alt="" onClick={() =>{handleClick(2)}} className={ equipped[2] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraHead} alt="" onClick={() =>{handleClick(3)}} className={ equipped[3] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={asteraChest} alt="" onClick={() =>{handleClick(1)}} className={ equipped[1] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraLegs} alt="" onClick={() =>{handleClick(4)}} className={ equipped[4] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraHands} alt="" onClick={() =>{handleClick(5)}} className={ equipped[5] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraFeet} alt="" onClick={() =>{handleClick(6)}} className={ equipped[6] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
-                                    <img src={asteraWeapon} alt="" onClick={() =>{handleClick(2)}} className={ equipped[2] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
-                                    
                                 </div>
                             </div>
                             
@@ -621,28 +755,40 @@ const StartSimulator = () => {
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                    <img src={milletianWeapon} alt="" onClick={() =>{handleClick(8)}} className={ equipped[8] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={MilletianHead} alt="" onClick={() =>{handleClick(9)}} className={ equipped[9] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={milletianChest} alt="" onClick={() =>{handleClick(7)}} className={ equipped[7] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
+                                    <img src={MilletianLegs} alt="" onClick={() =>{handleClick(10)}} className={ equipped[10] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={milletianHands} alt="" onClick={() =>{handleClick(11)}} className={ equipped[11] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={milletianFeet} alt="" onClick={() =>{handleClick(12)}} className={ equipped[12] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                 </div>
                             </div>
                             <div id='ardri' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Ardri</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
                                 <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
-                                    <div className="bg-neutral-600 w-full h-full rounded-md shadow-inner border-2 border-neutral-900"></div>
+                                    <img src={ardriWeapon} alt="" onClick={() =>{handleClick(14)}} className={ equipped[14] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ardriHead} alt="" onClick={() =>{handleClick(15)}} className={ equipped[15] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ardriChest} alt="" onClick={() =>{handleClick(13)}} className={ equipped[13] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ardriLegs} alt="" onClick={() =>{handleClick(16)}} className={ equipped[16] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ardriHands} alt="" onClick={() =>{handleClick(17)}} className={ equipped[17] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ardriFeet} alt="" onClick={() =>{handleClick(18)}} className={ equipped[18] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                </div>
+                            </div>
+                            <div id='orna' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Orna</div>
+                            <hr className="w-full border-2 border-neutral-800 rounded-md "/>
+                            <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
+                                <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                    <img src={ornaWeapon} alt="" onClick={() =>{handleClick(20)}} className={ equipped[20] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ornaHead} alt="" onClick={() =>{handleClick(21)}} className={ equipped[21] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ornaChest} alt="" onClick={() =>{handleClick(19)}} className={ equipped[19] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ornaLegs} alt="" onClick={() =>{handleClick(22)}} className={ equipped[22] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ornaHands} alt="" onClick={() =>{handleClick(23)}} className={ equipped[23] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
+                                    <img src={ornaFeet} alt="" onClick={() =>{handleClick(24)}} className={ equipped[24] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                 </div>
                             </div>
                         </div>
-                        <div id="accessories">
+                        <div id="accessories">      
                             <div id="" className="text-2xl"></div>
                             <div id="" className="text-2xl"></div>
                             <div id=""></div>
@@ -650,7 +796,7 @@ const StartSimulator = () => {
                             <div id=""></div>
                             <div id=""></div>
                         </div>
-                        {/* {gear} */}
+                        {/* TODO: add accessories, need a function to pick left or right ring */}
                     </div>
                 </div>
             </div>        
