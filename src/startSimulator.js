@@ -188,7 +188,6 @@ const StartSimulator = () => {
             INT: 30,
             WIL: 80,
             ATT: 18800,
-            DEF: 60,
             ATTSPD: 9,
             BAL: 58,
             Crit: 82,
@@ -648,30 +647,26 @@ const StartSimulator = () => {
     }
 
     function updateSlots(ID, equipping){
-        const tempSlots = JSON.parse(JSON.stringify(slots))
+        
 
         if(equipping){
-            tempSlots[pieces[ID].type].id = ID
-            tempSlots[pieces[ID].type].empty = false
             setSlots(prev => {
+                const tempSlots = JSON.parse(JSON.stringify(slots))
+                tempSlots[pieces[ID].type].id = ID
+                tempSlots[pieces[ID].type].empty = false
                 const update = {
                     ...prev,
                     [pieces[ID].type]: tempSlots[pieces[ID].type]
                 }
                 return update
             })
-            setSlots(prev => {
-                const update = {
-                    ...prev,
-                    [pieces[ID].type]: tempSlots[pieces[ID].type]
-                }
-                return update
-            })
+            
         }
         else{
-            tempSlots[pieces[ID].type].id = null
-            tempSlots[pieces[ID].type].empty = true
             setSlots(prev => {
+                const tempSlots = JSON.parse(JSON.stringify(slots))
+                tempSlots[pieces[ID].type].id = null
+                tempSlots[pieces[ID].type].empty = true
                 const update = {
                     ...prev,
                     [pieces[ID].type]: tempSlots[pieces[ID].type]
