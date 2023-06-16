@@ -2,6 +2,8 @@
 ![mainPage](https://github.com/Nathan-Gonzales/vindi-site/assets/105566893/20e178fb-d04b-41dc-b332-59a55e0ef87b)
 A fansite for players of the MMO Vindictus to come learn tips and tricks and find communities of people to play the game with.
 
+## Demo Video:
+https://www.youtube.com/watch?v=p1RY_ilF-ec
 
 ## How It's Made:
 
