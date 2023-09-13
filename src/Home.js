@@ -33,7 +33,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                <a href="https://vindictus.nexon.net/news/85002/august-crystal-marine-crystal">
                                     <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1872/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
                                         <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
                                             <h1 className='text-2xl px-3 pt-1 pb-1'>August Crystal: Marine Crystal</h1>
@@ -43,7 +43,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                <a href="https://vindictus.nexon.net/news/85003/august-package-summer-sunshine-comrade-package">
                                     <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1870/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
                                         <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
                                             <h1 className='text-2xl px-3 pt-1 pb-1'>August Package: Summer Sunshine Comrade Package</h1>
@@ -53,7 +53,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                <a href="https://vindictus.nexon.net/news/85004/achel-avatar-shop-description">
                                     <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1868/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
                                         <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
                                             <h1 className='text-2xl px-3 pt-1 pb-1'>Achel Avatar Shop Update</h1>
