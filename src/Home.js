@@ -22,16 +22,52 @@ const Home = () => {
                                 <h1 className='text-neutral-200 text-4xl text-center w-full mt-10 pb-2 font-red-rose'>Current Events</h1>
                                 <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             </div>
-                            <div className='flex flex-col gap-x-10 gap-y-10 py-10 px-36 lg:flex-row lg:flex-wrap'>
-                                <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                                <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                                <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
-                                <div className='bg-gradient-to-b from-black to-neutral-900 border-neutral-900 border-2 basis-1/3 flex-1 h-96'>Test</div>
+                            <div className='flex flex-col gap-x-10 gap-y-10 py-10 px-36 justify-center lg:flex-row lg:flex-wrap'>
+                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                    <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/2212/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
+                                        <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
+                                            <h1 className='text-2xl px-3 pt-1 pb-1'>Water Balloon Event</h1>
+                                            <p className='px-3 pb-1 pt-3'>
+                                                Complete challenges to earn water balloons that you can throw at your foes. Earn great rewards
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                    <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1872/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
+                                        <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
+                                            <h1 className='text-2xl px-3 pt-1 pb-1'>August Crystal: Marine Crystal</h1>
+                                            <p className='px-3 pb-1 pt-3'>
+                                                Check the shop for new Marine Crystal skins
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                    <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1870/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
+                                        <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
+                                            <h1 className='text-2xl px-3 pt-1 pb-1'>August Package: Summer Sunshine Comrade Package</h1>
+                                            <p className='px-3 pb-1 pt-3'>
+                                                Come get your comrades plus many more rewards!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://vindictus.nexon.net/news/84995/beat-that-heat-with-water-balloons">
+                                    <div className='flex flex-col justify-end bg-[url("https://nxcache.nexon.net/cms/2023/q3/1868/staem_cover_img_800x450.jpg")] bg-top bg-no-repeat bg-contain border-neutral-900 border-2 h-96 w-96'>
+                                        <div className='bg-gradient-to-b from-black/[.45] to-black/[.95] text-neutral-200 pt-8 pl-1 h-1/2'>
+                                            <h1 className='text-2xl px-3 pt-1 pb-1'>Achel Avatar Shop Update</h1>
+                                            <p className='px-3 pb-1 pt-3'>
+                                                Fresh sales on skins for the brand new character, Achel!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </section>
                         
                         <section className='flex flex-col items-end justify-start mt-5'>
-                            <div className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-5 w-1/3 text-center text-neutral-200 text-3xl border-neutral-900 border-2 rounded-sm'>
+                            <div className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-5 w-1/3 text-center text-neutral-200 text-3xl border-neutral-900 border-2 rounded-lg underline'>
                                 <a href="https://vindictus.nexon.net/news/">Link to the official Event Page</a>
                             </div>
                         </section>
