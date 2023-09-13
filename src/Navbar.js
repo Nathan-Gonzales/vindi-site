@@ -25,11 +25,11 @@ const Navbar = () => {
                     
                     <ul className={show ? 'md:flex md:flex-row md:items-center z-[-1] md:z-auto md:static bg-neutral-900 w-1/2 md:w-auto' : 'md:flex md:flex-row md:items-center z-[-1] md:z-auto md:static bg-neutral-900 w-1/2 md:w-auto fixed left-[-100%]'}>
                         <Link to='/guides'><li className='p-5'>Guides</li></Link>
-                        <Link to='/lore'><li className='p-5'>Lore</li></Link>
+                        {/* <Link to='/lore'><li className='p-5'>Lore</li></Link> */}
                         <Link to='/community'><li className='p-5'>Community</li></Link>
-                        <Link to='/usefulTools'><li className='p-5'>Useful Tools</li></Link>
+                        {/* <Link to='/usefulTools'><li className='p-5'>Useful Tools</li></Link> */}
                         <Link to='/gearSimulator'><li className='p-5'>Gear Simulator</li></Link>
-                        <Link to='/faq'><li className='p-5'>FAQ</li></Link>
+                        {/* <Link to='/faq'><li className='p-5'>FAQ</li></Link> */}
                     </ul>
                     <div></div>
                 </nav>

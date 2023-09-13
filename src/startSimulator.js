@@ -704,8 +704,11 @@ const StartSimulator = () => {
         <section className="flex flex-col w-full">
             <div className="grid grid-cols-8 text-white">
                 <div className="col-span-2 flex flex-col items-center text-center w-full">
-                    <h1 className="font-red-rose text-white text-4xl pb-10 px-10">Stats</h1>
                     <div className="bg-gradient-to-b from-black to-neutral-900 p-5 rounded-lg font-red-rose w-full border-neutral-900 border-2 text-left">
+                        <div className="px-5">
+                            <h1 className="font-red-rose text-white text-center text-4xl pb-2 px-10">Stats</h1>
+                            <hr className="w-full border-2 border-neutral-800 rounded-md mb-8"/>
+                        </div>
                         {statList.map((stat, index) => {
                             return(
                                 <div className="flex justify-between">
@@ -718,8 +721,9 @@ const StartSimulator = () => {
                     </div>
                 </div>
                 <div className="col-span-2 text-center">
-                    <h1 className="font-red-rose text-white text-4xl pb-10 px-10">Equip</h1>
-                    <div className="flex justify-center w-full py-5 bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2">
+                    <div className="flex flex-col items-center w-full py-5 px-10 bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2">
+                        <h1 className="font-red-rose text-white text-center text-4xl pb-2 px-10">Equip</h1>
+                        <hr className="w-full border-2 border-neutral-800 rounded-md mb-8"/>
                         <div className="grid grid-cols-[repeat(3,_60px)] grid-rows-[repeat(6,_60px)] gap-1 place-items-center justify-center w-52 py-2 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2">
                             {idList.map((piece, index) => {
                                 return(<div key={idList[index]} className='flex bg-neutral-600 w-full h-full rounded-md 
@@ -730,8 +734,9 @@ const StartSimulator = () => {
                     </div>
                 </div>
                 <div className="col-span-4 text-center ">
-                    <h1 className="font-red-rose text-white text-4xl pb-10 px-10">Gear</h1>
-                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-2 h-[444px] overflow-y-scroll scrollbar">
+                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-5 h-[524px] overflow-y-scroll scrollbar">
+                        <h1 className="font-red-rose text-white text-center text-4xl pb-2 px-10">Gear</h1>
+                        <hr className="w-full border-2 border-neutral-800 rounded-md mb-3"/>
                         <div id='gearsets ' className="text-center">
                             <div id="astera" className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Astera</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
