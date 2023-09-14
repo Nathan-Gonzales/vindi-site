@@ -734,14 +734,14 @@ const StartSimulator = () => {
                     </div>
                 </div>
                 <div className="col-span-4 text-center ">
-                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-5 h-[524px] overflow-y-scroll scrollbar">
+                    <div className="bg-gradient-to-b from-black to-neutral-900 rounded-md border-neutral-900 border-2 text-left px-10 pt-5 lg:h-[524px] lg:overflow-y-scroll lg:scrollbar">
                         <h1 className="font-red-rose text-white text-center text-4xl pb-2 px-10">Gear</h1>
                         <hr className="w-full border-2 border-neutral-800 rounded-md mb-3"/>
                         <div id='gearsets ' className="text-center">
-                            <div id="astera" className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Astera</div>
+                            <div id="astera" className=" text-center lg:text-left lg:pl-10 py-2 font-red-rose text-2xl">Astera</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
-                                <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                <div className="grid grid-cols-[repeat(3,_60px)] grid-rows-[repeat(2,_60px)] md:grid-cols-[repeat(6,_60px)] md:grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <img src={asteraWeapon} alt="" onClick={() =>{handleClick(2)}} className={ equipped[2] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraHead} alt="" onClick={() =>{handleClick(3)}} className={ equipped[3] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={asteraChest} alt="" onClick={() =>{handleClick(1)}} className={ equipped[1] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
@@ -751,10 +751,10 @@ const StartSimulator = () => {
                                 </div>
                             </div>
                             
-                            <div id='milletian' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Milletian</div>
+                            <div id='milletian' className="text-center lg:text-left lg:pl-10 py-2 font-red-rose text-2xl">Milletian</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
-                                <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                <div className="grid grid-cols-[repeat(3,_60px)] grid-rows-[repeat(2,_60px)] md:grid-cols-[repeat(6,_60px)] md:grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <img src={milletianWeapon} alt="" onClick={() =>{handleClick(8)}} className={ equipped[8] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={MilletianHead} alt="" onClick={() =>{handleClick(9)}} className={ equipped[9] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={milletianChest} alt="" onClick={() =>{handleClick(7)}} className={ equipped[7] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
@@ -763,10 +763,10 @@ const StartSimulator = () => {
                                     <img src={milletianFeet} alt="" onClick={() =>{handleClick(12)}} className={ equipped[12] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                 </div>
                             </div>
-                            <div id='ardri' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Ardri</div>
+                            <div id='ardri' className="text-center lg:text-left lg:pl-10 py-2 font-red-rose text-2xl">Ardri</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
-                                <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                <div className="grid grid-cols-[repeat(3,_60px)] grid-rows-[repeat(2,_60px)] md:grid-cols-[repeat(6,_60px)] md:grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <img src={ardriWeapon} alt="" onClick={() =>{handleClick(14)}} className={ equipped[14] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={ardriHead} alt="" onClick={() =>{handleClick(15)}} className={ equipped[15] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={ardriChest} alt="" onClick={() =>{handleClick(13)}} className={ equipped[13] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
@@ -775,10 +775,10 @@ const StartSimulator = () => {
                                     <img src={ardriFeet} alt="" onClick={() =>{handleClick(18)}} className={ equipped[18] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                 </div>
                             </div>
-                            <div id='orna' className="flex justify-left pl-10 py-2 font-red-rose text-2xl">Orna</div>
+                            <div id='orna' className="text-center lg:text-left lg:pl-10 py-2 font-red-rose text-2xl">Orna</div>
                             <hr className="w-full border-2 border-neutral-800 rounded-md "/>
                             <div className="inline-block py-3 px-3 mt-5 mb-3 bg-stone-800 rounded-lg font-red-rose border-neutral-900 border-2 ">
-                                <div className="grid grid-cols-[repeat(6,_60px)] grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
+                                <div className="grid grid-cols-[repeat(3,_60px)] grid-rows-[repeat(2,_60px)] md:grid-cols-[repeat(6,_60px)] md:grid-rows-[repeat(1,_60px)] gap-1 place-items-center ">
                                     <img src={ornaWeapon} alt="" onClick={() =>{handleClick(20)}} className={ equipped[20] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={ornaHead} alt="" onClick={() =>{handleClick(21)}} className={ equipped[21] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>
                                     <img src={ornaChest} alt="" onClick={() =>{handleClick(19)}} className={ equipped[19] ? "w-full h-full rounded-md brightness-50" : "w-full h-full rounded-md"}/>

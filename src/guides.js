@@ -7,9 +7,9 @@ const Guides = () => {
         <main className='bg-[url("./images/MagicShop.png")] bg-fixed'>
             <section className='min-h-screen'>
                 <section className='flex items-center justify-center'>
-                    <div className='bg-neutral-900/[.75] flex flex-col h-full items-center justify-between max-w-screen-xl px-3 border-neutral-900 border-x-2'>
+                    <div className='bg-neutral-900/[.75] flex flex-col h-full items-center justify-between max-w-screen-xl lg:px-3 md:px-3 border-neutral-900 border-x-2'>
                         <img className='border-neutral-900 border-x-2 border-b-2 mb-10 w-[1280px] max-h-60' src={imgBanner} alt="" />
-                        <div className='flex flex-row justify-between w-4/5'>
+                        <div className='flex flex-row justify-between w-full lg:w-4/5'>
                             <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-full text-center text-neutral-200 text-5xl border-neutral-900 border-2 rounded-sm'>
                                 Guides
                             </h1>
@@ -27,39 +27,39 @@ const Guides = () => {
                                 <hr className='w-full border-2 border-neutral-800 rounded-md '/>
                                 <ul className='text-lg text-left text-neutral-200 underline pt-8 font-red-rose'>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@LegendarmaTV">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@LegendarmaTV">
                                             <div>LegendarmaTV Youtube</div>
-                                            <div>Guides</div>
+                                            {/* <div>Guides</div> */}
                                         </a>
                                     </li>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@Tilli4">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@Tilli4">
                                             <div>Tilli4 Youtube</div>
-                                            <div>Guides</div>
+                                            {/* <div>Guides</div> */}
                                         </a>
                                     </li>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@smary9591">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@smary9591">
                                             <div>Smary Youtube</div>
-                                            <div>Gameplay/Showcase</div>
+                                            {/* <div>Gameplay/Showcase</div> */}
                                         </a>
                                     </li>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@BTANK">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@BTANK">
                                             <div>B TANK Youtube</div>
-                                            <div>Gameplay/Showcase</div>
+                                            {/* <div>Gameplay/Showcase</div> */}
                                         </a>
                                     </li>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@jessgame2243">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@jessgame2243">
                                             <div>Jess Game Youtube</div>
-                                            <div>Gameplay/Showcase</div>
+                                            {/* <div>Gameplay/Showcase</div> */}
                                         </a>
                                     </li>
                                     <li className='p-1'>
-                                        <a className='flex flex-row justify-between' href="https://www.youtube.com/@blacktornado2445">
+                                        <a className='flex flex-row justify-center' href="https://www.youtube.com/@blacktornado2445">
                                             <div>BlackTornado Youtube</div>
-                                            <div>Guides</div>
+                                            {/* <div>Guides</div> */}
                                         </a>
                                     </li>
                                 </ul>
