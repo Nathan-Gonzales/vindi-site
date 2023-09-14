@@ -10,7 +10,8 @@ const Community = () => {
                         <img className='border-neutral-900 border-x-2 border-b-2 w-[1280px] mb-10 max-h-60' src={imgBanner} alt="" />
                         <div className='flex flex-col items-center'>
                             <h1 className='bg-gradient-to-b from-black/[.65] to-neutral-900/[.65] font-red-rose py-10 w-4/5 text-center text-neutral-200 text-5xl border-neutral-900 border-2 rounded-sm'>
-                                Community</h1>
+                                Community
+                            </h1>
                             {/* <p className='bg-gradient-to-b from-black to-neutral-900 font-red-rose p-10 w-full text-center text-neutral-200 text-3xl  rounded-sm my-10 border-neutral-900 border-2'>
                                 Since Vindi has a small player base here in NA, we need to stick together. 
                                 This will serve as a place for the existing players to meet each other and also
@@ -24,7 +25,7 @@ const Community = () => {
                                     in no particular order:
                                 </h1>
                                 <hr className="w-full border-2 border-neutral-800 rounded-md "/>
-                                <ul className='grid grid-cols-3 text-2xl text-center pt-4'>
+                                <ul className='grid grid-cols-3 lg:text-2xl text-center pt-4'>
                                     <li className=''>I Lift Heavy</li>
                                     <li className=''>Cool Beanz</li>
                                     <li className=''>No Fun Allowed</li>
@@ -44,7 +45,7 @@ const Community = () => {
                                 <hr className="w-full border-2 border-neutral-800 rounded-md mt-4"/>
                             </div>
                             <div>
-                                <p className='text-center text-2xl px-10 '>
+                                <p className='text-center lg:text-2xl px-10 '>
                                     This is my main guild. It's ran by the wonderful miss Aqua. 
                                     5 star guild house and allows multiple alt characters.
                                     Redeemers every week. Feel free to join our Discord

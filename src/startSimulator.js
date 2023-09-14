@@ -702,7 +702,7 @@ const StartSimulator = () => {
 
     return(
         <section className="flex flex-col w-full">
-            <div className="grid grid-cols-8 text-white">
+            <div className="flex flex-col lg:grid lg:grid-cols-8 text-white">
                 <div className="col-span-2 flex flex-col items-center text-center w-full">
                     <div className="bg-gradient-to-b from-black to-neutral-900 p-5 rounded-lg font-red-rose w-full border-neutral-900 border-2 text-left">
                         <div className="px-5">
